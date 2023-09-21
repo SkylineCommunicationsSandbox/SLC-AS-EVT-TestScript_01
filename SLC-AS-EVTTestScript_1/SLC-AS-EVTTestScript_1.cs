@@ -19,7 +19,7 @@ namespace SLC_AS_EVTTestScript_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello World");
-			var order = OrderFactory.CreateOrder("Cold Bier");
+			var order = OrderFactory.CreateOrder("JansChange Cold Bier");
 			order.Dispatch("Elian Vantomme");
         }
 	}
